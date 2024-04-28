@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+ 
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+header{
+	z-index: 10;
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	background:rgba(0,0,0,0.8);  
+}
+
+header li {
+	float: right;
+	list-style: none;
+	height: 70px; 
+}
+
+header li a{
+	float: left;
+	width: 98px;
+	height: 17px;
+	padding: 14px 7px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: Arial;
+	line-height: 40px;
+}
+header li a:hover{
+	float: left;
+	width: 98px;
+	height: 12px;
+	padding: 14px 7px;
+	color: red;
+	text-decoration: none;
+	text-align:
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	font-family: tahoma;
+	font-weight: bolder;
+	line-height: 40px;
+
+}
+header .logo{
+	float: left;
+	background: magenta no-repeat;
+	text-align: center;
+	height: 70px;
+	width: 300px;
+}
+.wide{
+	width: 150px;
+}
+
+.wide:hover{
+	width: 150px;
+}
+header .logo a{
+	color: black;
+	text-align: center;
+	line-height: 70px;
+	padding: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bolder;
+}
+
+.Highlight ul:hover{
+	color: black;
+
+}
+/*..............................................................*/
+
+#slider
+{
+    overflow: hidden;
+
+}
+
+#slider figure
+{
+    position: relative;
+    width: 500%;
+    height: 100vh;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img
+{
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+/*....................................................................*/
+
+
+
+
+/*.........................SIgnup..................................*/
+
+
+.wallpaper{
+	background: url(4.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+.wallpaper1{
+	background-image: linear-gradient(-90deg, red, yellow);
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+
+.wrap{
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),rgba(0,0,0,0.5);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	top: 50%;
+}
+
+
+
+h2{
+text-align:center;
+font-family: Arial
+}
+h1{
+	text-align: center;
+	font-family: Arial;
+}
+
+
+
+input[type=text],input[type=password]{
+width:100%;
+box-sizing:border-box;
+padding:12px 5px;
+background:rgba(0,0,0,0.10);
+outline:none;
+border:none;
+border-bottom:1px dashed white;
+color:#fff;
+border-radius:5px;
+margin:5px;
+font-weight:bold;
+}
+
+
+
+input[type=submit]
+{
+width:100%;
+box-sizing:border-box;
+padding:10px 0;
+margin-top:30px;
+outline:none;
+border:none;
+background:#60DDDE;
+opacity:0.7;
+border-radius:20px;
+font-size:20px;
+color:black;
+}
+
+input[type=submit]:hover{
+background:#003366;
+opacity:0.7;
+}
+
+.btone{
+width:100%;
+box-sizing:border-box;
+padding:12px 5px;
+background:rgba(0,0,0,0.10);
+outline:none;
+opacity:0.7;
+border:none;
+color:#fff;
+border-radius:5px;
+margin:5px;
+font-weight:bold;
+}
+
+/*..................................category........................*/
+.wrap1{
+	max-width:800px;
+	border-radius:20px;
+	margin:auto;
+	font-size: 25px;
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),rgba(0,0,0,0.4);
+	box-sizing:border-box;
+	display: flex;
+	justify-content: space-between;
+	padding:70px;
+	color:#fff;
+	top: 50%;
+}
+
+.wrap1 li a{
+	list-style: none; 
+	color: orange;
+	text-align: left;
+	line-height: 50px;
+	font-family: tahoma;
+	text-decoration: none;
+
+}
+
+.wrap1 li a:hover{
+	color: red;
+
+}
+
+
+
+/*.............................PAGE.......................*/
+
+section
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	background-image: linear-gradient(-90deg, red, yellow);
+	align-items: center;
+}
+
+.banner-left-1{
+	background:;
+	color: white;
+	margin: 20px;
+	width: 50%;
+	height:800px;
+}
+
+.banner-right-1{
+	padding: 50px;
+	background:;
+	color: white;
+	margin: 20px;
+	width: 50%;
+	height: 700px;
+
+}
+.banner-right-1 h2{
+	color: black;
+	font-size: 50px;
+}
+
+.banner-right-1 .banner-content{
+	color: white;
+	font-size: 80;
+	font-family: tahoma;
+}
+.banner-right-1 .banner-content {
+	color: white;
+	font-size: 80;
+	font-family: tahoma;
+}
+
+.banner-left-1 .box{
+	position:relative;
+	width: 750px;
+	height: 750px;
+	background: #ff0;}
+
+.banner-left-1 .box .imgbox{
+	 position: absolute;
+	 overflow: hidden;
+}
+
+
+.banner-left-1 .box .imgbox img{
+	 max-width: 100%;
+	 transition: transform 2s;
+
+}
+
+
+.banner-left-1 .box:hover .imgbox img{
+	 transform: scale(1.2);
+}
+
+.banner-left-1 .box .details 
+{
+	 position: absolute;
+	 text-align: center;
+	 top: 30px;
+	 left: 30px;
+	 bottom: 30px;
+	 right: 30px;
+	 background: rgba(0,0,0,.6);
+	 transform: scaleY(0);
+	 transition: transform .5s;
+}
+.banner-left-1 .box:hover .details 
+{
+	transform: scaleY(1);
+}
+
+.banner-left-1 .box .details .content
+{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+
+	color: #fff;
+}
+.banner-left-1 .box .details .content h2
+{
+	padding: 50px;
+	font-size: 80px;
+	color: red;
+	position: relative;
+}
+
+/*/.........................test PAGE...............................*/
+
+.TEST-PAGE{
+	max-width:80%;
+	border-radius:20px;
+	margin:auto;
+	font-size: 25px;
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),rgba(0,0,0,0.4);
+	box-sizing:border-box;
+	justify-content: space-between;
+	padding:70px;
+	color:#fff;
+	top: 50%;
+}
+
+.Question{
+	justify-content: space-between;
+
+}
+
+.Answer{
+	margin: 10px 10px 20px 10px;
+}
+
+.TEST-PAGE li a{
+	list-style: none; 
+	color: orange;
+	text-align: left;
+	line-height: 50px;
+	font-family: tahoma;
+	text-decoration: none;
+
+
+}
+
+.TEST-PAGE li a:hover{
+	color: red;
+
+}
+
+.button{
+width: 300px;
+}
+
+
+
+/*..............................footer.......................*/
+
+
+
+.footer{
+	padding-top:20px;
+	width: 100%;
+	height: 500px;
+	background-color:#152e2f;
+	padding-bottom:30px;
+	text-align:center;
+	font-weight:bold;
+	color:white;
+}
+/*,...................................about US.................................*/
+
+#adminDescription{
+	font-weight:bold;
+	color: black;
+	font-size: 20px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.wrap-about-left{
+
+	margin-left: 50px;
+	max-width:800px;
+
+
+	}
+
+h5{
+	font-size: 50px;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+}
+
+.wrap-about-right{
+	max-width:800px;
+	border-radius:20px;
+	margin:auto;
+	position:relative; 
+	background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),rgba(0,0,0,0.5);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+
+}
+
+.form-input-textarea{
+    display: block;
+    width: 100%;
+    min-height: 7em;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+	border-radius:0.5em;
+	
+}
+
+}
+
